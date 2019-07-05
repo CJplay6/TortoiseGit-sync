@@ -21,7 +21,7 @@ void test01(myfunc func)
 	func(a, b);	
 }
 
-void test02(void (*func)(int, int))
+void test02(void (*func)(int, int))   /*  方式二： 直接在函数形参中定义一个函数指针 */
 {
 	int a = 20;
 	int b = 30;
