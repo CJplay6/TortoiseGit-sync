@@ -9,5 +9,6 @@ int main(void)
 	printf("hello b\n");
 
 	printf("hello e\n");
+	printf("hello f\n");
 	return 0;
 }
